@@ -87,7 +87,7 @@ attribute_info = {
 }
 
 # Inversión de los diccionarios para buscar por valor
-# attribute_info_inverted = {attr: {v: k for k, v in d.items()} for attr, d in attribute_info.items()}
+ attribute_info_inverted = {attr: {v: k for k, v in d.items()} for attr, d in attribute_info.items()}
 
 # Crear un formulario para introducir las características del hongo
 st.header('Introduce las características del hongo')
