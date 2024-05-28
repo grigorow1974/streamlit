@@ -16,86 +16,110 @@ attribute_info = {
         'bell': 'b', 'conical': 'c', 'convex': 'x', 'flat': 'f', 'knobbed': 'k', 'sunken': 's'
     },
     'cap-surface': {
-        'fibrous': 'f', 'grooves': 'g', 'scaly': 'y', 'smooth': 's'
+        'fibroso': 'f', 'ranurado': 'g', 'escamoso': 'y', 'suave': 's'
     },
     'cap-color': {
-        'brown': 'n', 'buff': 'b', 'cinnamon': 'c', 'gray': 'g', 'green': 'r', 'pink': 'p',
-        'purple': 'u', 'red': 'e', 'white': 'w', 'yellow': 'y'
+        'marrón': 'n', 'ocre': 'b', 'canela': 'c', 'gris': 'g', 'verde': 'r', 'rosa': 'p',
+        'púrpura': 'u', 'rojo': 'e', 'blanco': 'w', 'amarillo': 'y'
     },
     'bruises': {
-        'bruises': 't', 'no': 'f'
+        'magulladuras': 't', 'no': 'f'
     },
     'odor': {
-        'almond': 'a', 'anise': 'l', 'creosote': 'c', 'fishy': 'y', 'foul': 'f', 'musty': 'm',
-        'none': 'n', 'pungent': 'p', 'spicy': 's'
+        'almendra': 'a', 'anís': 'l', 'creosota': 'c', 'pescado': 'y', 'hediondo': 'f', 'moho': 'm',
+        'ninguno': 'n', 'picante': 'p', 'especiado': 's'
     },
     'gill-attachment': {
-        'attached': 'a', 'descending': 'd', 'free': 'f', 'notched': 'n'
+        'adjunto': 'a', 'libre': 'f'
     },
     'gill-spacing': {
-        'close': 'c', 'crowded': 'w', 'distant': 'd'
+        'cerrado': 'c', 'apretado': 'w', 'distante': 'd'
     },
     'gill-size': {
-        'broad': 'b', 'narrow': 'n'
+        'ancho': 'b', 'estrecho': 'n'
     },
     'gill-color': {
-        'black': 'k', 'brown': 'n', 'buff': 'b', 'chocolate': 'h', 'gray': 'g', 'green': 'r',
-        'orange': 'o', 'pink': 'p', 'purple': 'u', 'red': 'e', 'white': 'w', 'yellow': 'y'
+        'negro': 'k', 'marrón': 'n', 'ocre': 'b', 'chocolate': 'h', 'gris': 'g', 'verde': 'r',
+        'naranja': 'o', 'rosa': 'p', 'púrpura': 'u', 'rojo': 'e', 'blanco': 'w', 'amarillo': 'y'
     },
     'stalk-shape': {
-        'enlarging': 'e', 'tapering': 't'
+        'engrosamiento': 'e', 'estrechamiento': 't'
     },
     'stalk-root': {
-        'bulbous': 'b', 'club': 'c', 'cup': 'u', 'equal': 'e', 'rhizomorphs': 'z', 'rooted': 'r', 'missing': '?'
+        'bulboso': 'b', 'club': 'c', 'copa': 'u', 'igual': 'e', 'rizomorfos': 'z', 'enraizado': 'r', 'ausente': '?'
     },
     'stalk-surface-above-ring': {
-        'fibrous': 'f', 'scaly': 'y', 'silky': 'k', 'smooth': 's'
+        'fibroso': 'f', 'escamoso': 'y', 'sedoso': 'k', 'suave': 's'
     },
     'stalk-surface-below-ring': {
-        'fibrous': 'f', 'scaly': 'y', 'silky': 'k', 'smooth': 's'
+        'fibroso': 'f', 'escamoso': 'y', 'sedoso': 'k', 'suave': 's'
     },
     'stalk-color-above-ring': {
-        'brown': 'n', 'buff': 'b', 'cinnamon': 'c', 'gray': 'g', 'orange': 'o', 'pink': 'p',
-        'red': 'e', 'white': 'w', 'yellow': 'y'
+        'marrón': 'n', 'ocre': 'b', 'canela': 'c', 'gris': 'g', 'naranja': 'o', 'rosa': 'p',
+        'rojo': 'e', 'blanco': 'w', 'amarillo': 'y'
     },
     'stalk-color-below-ring': {
-        'brown': 'n', 'buff': 'b', 'cinnamon': 'c', 'gray': 'g', 'orange': 'o', 'pink': 'p',
-        'red': 'e', 'white': 'w', 'yellow': 'y'
+        'marrón': 'n', 'ocre': 'b', 'canela': 'c', 'gris': 'g', 'naranja': 'o', 'rosa': 'p',
+        'rojo': 'e', 'blanco': 'w', 'amarillo': 'y'
     },
     'veil-type': {
-        'partial': 'p'
+        'parcial': 'p'
     },
     'veil-color': {
-        'brown': 'n', 'orange': 'o', 'white': 'w', 'yellow': 'y'
+        'marrón': 'n', 'naranja': 'o', 'blanco': 'w', 'amarillo': 'y'
     },
     'ring-number': {
-        'none': 'n', 'one': 'o', 'two': 't'
+        'ninguno': 'n', 'uno': 'o', 'dos': 't'
     },
     'ring-type': {
-        'cobwebby': 'c', 'evanescent': 'e', 'flaring': 'f', 'large': 'l', 'none': 'n', 'pendant': 'p', 'sheathing': 's', 'zone': 'z'
+        'evanescente': 'e', 'alargado': 'f', 'grande': 'l', 'ninguno': 'n', 'pendiente': 'p', 'vaina': 's', 'zona': 'z'
     },
     'spore-print-color': {
-        'black': 'k', 'brown': 'n', 'buff': 'b', 'chocolate': 'h', 'green': 'r', 'orange': 'o',
-        'purple': 'u', 'white': 'w', 'yellow': 'y'
+        'negro': 'k', 'marrón': 'n', 'ocre': 'b', 'chocolate': 'h', 'verde': 'r', 'naranja': 'o',
+        'púrpura': 'u', 'blanco': 'w', 'amarillo': 'y'
     },
     'population': {
-        'abundant': 'a', 'clustered': 'c', 'numerous': 'n', 'scattered': 's', 'several': 'v', 'solitary': 'y'
+        'abundante': 'a', 'agrupado': 'c', 'numeroso': 'n', 'disperso': 's', 'varios': 'v', 'solitario': 'y'
     },
     'habitat': {
-        'grasses': 'g', 'leaves': 'l', 'meadows': 'm', 'paths': 'p', 'urban': 'u', 'waste': 'w', 'woods': 'd'
+        'césped': 'g', 'hojas': 'l', 'praderas': 'm', 'caminos': 'p', 'urbano': 'u', 'residuos': 'w', 'bosques': 'd'
     }
 }
 
-# Inversión de los diccionarios para buscar por valor
- attribute_info_inverted = {attr: {v: k for k, v in d.items()} for attr, d in attribute_info.items()}
+# Diccionario para traducir los nombres de las columnas al español
+column_names_es = {
+    'cap-shape': 'Forma del sombrero',
+    'cap-surface': 'Superficie del sombrero',
+    'cap-color': 'Color del sombrero',
+    'bruises': 'Magulladuras',
+    'odor': 'Olor',
+    'gill-attachment': 'Unión de las láminas',
+    'gill-spacing': 'Espaciado de las láminas',
+    'gill-size': 'Tamaño de las láminas',
+    'gill-color': 'Color de las láminas',
+    'stalk-shape': 'Forma del tallo',
+    'stalk-root': 'Raíz del tallo',
+    'stalk-surface-above-ring': 'Superficie del tallo por encima del anillo',
+    'stalk-surface-below-ring': 'Superficie del tallo por debajo del anillo',
+    'stalk-color-above-ring': 'Color del tallo por encima del anillo',
+    'stalk-color-below-ring': 'Color del tallo por debajo del anillo',
+    'veil-type': 'Tipo de velo',
+    'veil-color': 'Color del velo',
+    'ring-number': 'Número de anillos',
+    'ring-type': 'Tipo de anillo',
+    'spore-print-color': 'Color de la impresión de esporas',
+    'population': 'Población',
+    'habitat': 'Hábitat'
+}
 
 # Crear un formulario para introducir las características del hongo
 st.header('Introduce las características del hongo')
 
-# Generar las selecciones con las descripciones completas
+# Generar las selecciones con las descripciones completas en español
 features = {}
 for attribute, mapping in attribute_info.items():
-    selected_value = st.selectbox(attribute.replace('-', ' ').title(), list(mapping.keys()))
+    translated_attribute = column_names_es[attribute]
+    selected_value = st.radio(f"**{translated_attribute}**", list(mapping.keys()))
     features[attribute] = mapping[selected_value]
 
 # Convertir las características a un DataFrame
@@ -104,6 +128,10 @@ features_df = pd.DataFrame([features])
 # Transformar las entradas del usuario usando los LabelEncoders
 for column in features_df.columns:
     le = label_encoders[column]
+    # Verificar si el valor está en las clases conocidas del LabelEncoder
+    if not set(features_df[column]).issubset(set(le.classes_)):
+        st.error(f"El valor para {column} contiene etiquetas no vistas previamente: {set(features_df[column]) - set(le.classes_)}.")
+        st.stop()
     features_df[column] = le.transform(features_df[column])
 
 # Hacer predicción
